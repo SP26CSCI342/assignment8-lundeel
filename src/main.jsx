@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom';
 import { Toaster } from 'react-hot-toast';
 
 import './index.css';
-import App from './components/App/App.jsx';
+import App from './Components/App/App.jsx';
 
 
 createRoot(document.getElementById('root')).render(
