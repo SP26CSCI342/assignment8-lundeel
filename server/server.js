@@ -19,7 +19,7 @@ const cors = require("cors");
 app.use(cors({
   origin: [
     "http://localhost:5173",                       // dev
-    "https://your-platescout.vercel.app",          // <-- your Vercel URL (after Step D)
+    "https://platescout-lundeel.onrender.com",          // <-- your Vercel URL (after Step D)
     /\.vercel\.app$/,                              // optional: preview branches
   ],
   credentials: true,
